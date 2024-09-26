@@ -13,7 +13,7 @@ public class SimpleTestController {
 	//http://localhost:8081/api/getParam?id=test&password=1234
 	@GetMapping("/getParam")
 	  public String getParameter(@RequestParam(name = "id")  String id, @RequestParam(name = "password") String pwd) {
-	    return "IDD: " + id + ", Passwordd: " + pwd;
+	    return "IDDD: " + id + ", Passworddd: " + pwd;
 	  }
 	
 	//http://localhost:8081/api/getMethod2
